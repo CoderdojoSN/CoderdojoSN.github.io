@@ -1,5 +1,5 @@
 
-
+$(document).ready(function(){
 var email = 'mach1982@gmail.com';
 var subject = 'CoderDojo';
 $('mail_butt').click(function() {
@@ -9,5 +9,7 @@ $('mail_butt').click(function() {
 
     win = window.open(mailto_link, 'emailWindow');
     if (win && win.open && !win.closed) win.close();
+
+});
 
 });
