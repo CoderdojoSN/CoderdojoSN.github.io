@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
   
-var email = 'mach1982@gmail.com';
+var email = 'sallinsnaas.ie@coderdojo.com';
 var subject = 'CoderDojo';
 
 $('#m').click(function() {
